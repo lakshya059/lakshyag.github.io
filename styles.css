@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+  
+    border: border-box;
+}
+.navbar{
+background-color: black;
+height: 60px;
+color: white;
+display: flex;
+align-items:center;
+justify-content: center;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    left: 10px;
+}
+.logo{
+    background-image: url(download\ \(1\).png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.menu{
+    position: absolute;
+    right: 20px;
+    font-size: 15px;
+}
+.border:hover{
+    font-size: 17px
+}
+
+
+.hero-sec{
+    height: 650px;
+    width: 100%;
+    background-image: url("planet-earth-background.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+}
+.msg{
+    height:650px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.3em;
+}
+.counter{
+    color: white;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ln{
+    font-size: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.count-no{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+ 
+
+
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    width: 500px; /* Set a width for better visual control */
+    margin: 50px auto; /* Center the container */
+    position: absolute;
+    right: 0px;
+    color: white;
+    
+  }
+  
+  .text {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .button {
+    padding: 15px 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: background-color 2s ease-out 100ms;
+    transition: color 2s ease-out 100ms;
+    
+    
+  }
+  .backgroundreuse{
+    background-image: url(TFfjONnsRliSQ0tIa0w1_Falcon_Heavy_Side_Boosters_landing_on_LZ1_and_LZ2_-_2018_25254688767-1110x550.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .backgroundreuse2{
+    background-image: url(pexels-pixabay-2166.jpg);
+    background-size: cover;
+    height:700px ;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    
+  }
+
+  .backgroundreuse3{
+    background-image: url(F9_AUTONOMOUS_DRONESHIP_DESKTOP.jpg);
+    background-size: cover;
+    height:700px ;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    
+  }
+  .container2{
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    width: 500px; /* Set a width for better visual control */
+    margin: 50px auto; /* Center the container */
+    position: absolute;
+    left: 0px;
+    color: white;
+  }
+  .button:hover{
+    background-color: white;
+    color: black;
+  }
+
